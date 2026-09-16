@@ -17,5 +17,5 @@ calcBtn.addEventListener("click", function () {
     total = total - discount
   }
   priceres.innerHTML = `Price: $${price} and quantity: ${quantity}`
-  subtotalres.innerHTML = `Subtotal: $${subtotal.toFixed(2)}  Discount: $${discount.toFixed(2)}  Final total: $${total.toFixed(2)}`
+  subtotalres.innerHTML = `Subtotal: $${subtotal.toFixed(2)}    Discount: $${discount.toFixed(2)}    Final total: $${total.toFixed(2)}`
 });
